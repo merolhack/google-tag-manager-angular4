@@ -8,6 +8,10 @@ The URL of the project is https://merolhack.github.io/google-tag-manager-angular
 
  * [Angular + Firebase + Typescript — Step by step tutorial](https://medium.com/factory-mind/angular-firebase-typescript-step-by-step-tutorial-2ef887fc7d71)
 
+## Code snippets
+
+ * [Bootstrap List Grid View](https://codepen.io/ajaypatelaj/pen/zIBjJ)
+
 ## ng-cli Commands
 
 Generate a model:

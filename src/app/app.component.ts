@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  public clarifications: Observable<any[]>;
+
+  constructor(db: AngularFireDatabase) {
+    // Get the array of objects
+    this.clarifications = db.list('clarifications');
+  }
 }

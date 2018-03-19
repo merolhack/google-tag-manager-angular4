@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
+The URL of the project is https://merolhack.github.io/google-tag-manager-angular4/
+
+## References
+
+ * [Angular + Firebase + Typescript — Step by step tutorial](https://medium.com/factory-mind/angular-firebase-typescript-step-by-step-tutorial-2ef887fc7d71)
+
+## ng-cli Commands
+
+Generate a model:
+````
+ng generate class models/clarification --type=model
+````
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
